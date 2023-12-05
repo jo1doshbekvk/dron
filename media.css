@@ -120,4 +120,11 @@
   .footer {
     padding: 70px 0px;
   }
+  .catalag-left img {
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
 }

@@ -199,11 +199,6 @@ body {
   font-size: 25px;
   font-weight: 900;
 }
-.teg-text {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .teg-text a {
   color: #2a2d46;
   font-size: 13px;
