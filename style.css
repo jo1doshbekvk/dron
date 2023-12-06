@@ -10,7 +10,7 @@
   width: 75%;
   margin: 0 auto;
 }
-.a {
+a {
   text-decoration: none;
 }
 button {
@@ -24,6 +24,9 @@ body {
 #header {
   padding: 20px 0;
   background: #ffe6d7;
+  position: sticky;
+  z-index: 99;
+  top: 0;
 }
 .header {
   display: flex;
@@ -189,10 +192,6 @@ body {
 }
 #teg {
   padding: 20px 100px;
-}
-.teg {
-  display: flex;
-  align-items: center;
 }
 .teg h1 {
   color: #2a2d46;

@@ -5,6 +5,11 @@
   }
 }
 @media (max-width: 1200px) {
+  #header {
+    background: #ffe6d7;
+    background: transparent;
+    backdrop-filter: blur(5px);
+  }
   .header-nav {
     display: none;
   }
@@ -109,10 +114,9 @@
   }
   .footer-nav a {
     font-size: 22px;
+    padding: 10px;
   }
   .footer-nav h5 {
-    color: #e5e5e7;
-    text-align: center;
     font-size: 23px;
     font-weight: 700;
     margin: 20px 40px;
@@ -126,5 +130,55 @@
   }
   .catalag-text h2 {
     left: 77px;
+  }
+  .card-title h2 {
+    font-size: 17px;
+    width: 89.148px;
+    margin: 0 0 20px 0;
+  }
+  .footer-nav h5 {
+    font-size: 23px;
+    margin: 35px 64px;
+  }
+  .footer-nav span {
+    width: 26px;
+    height: 21px;
+    padding: 15px 47px;
+  }
+  .footer-text img {
+    width: 249px;
+    height: 50px;
+    padding: 10px;
+  }
+  .footer-nav span {
+    width: 18px;
+    height: 4px;
+    padding: 21px 63px;
+    font-size: 33px;
+  }
+  .footer-nav button {
+    width: 110px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .card-title h4 {
+    color: #0c76d8;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px;
+  }
+
+  .card-title span {
+    top: 398px;
+    font-size: 30px;
+  }
+  .card-title h4 {
+    font-size: 25px;
+    padding: 10px;
+    text-align: start;
+  }
+  .teg-text {
+    padding: 10px;
+    margin: 8px;
   }
 }
