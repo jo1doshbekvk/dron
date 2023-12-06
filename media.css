@@ -44,10 +44,44 @@
   }
 }
 @media (max-width: 992px) {
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
+  
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
 }
 @media (max-width: 768px) {
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
+  
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
 }
 @media (max-width: 576px) {
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
   .hero-bg {
     width: 452px;
     height: 128.157px;
@@ -58,15 +92,57 @@
     width: 267px;
     height: 128.157px;
   }
+  
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
 }
 @media (max-width: 541px) {
   .sifre-title {
     flex-direction: column;
   }
+  .catalag-text h2 {
+    left: 77px;
+  }
+  
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
 }
 @media (max-width: 400px) {
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
 }
 @media (max-width: 376px) {
+  .catalag-left img {
+    position: relative;
+    width: 471px;
+    height: 458px;
+  }
+  .catalag-text h2 {
+    left: 77px;
+  }
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
+  }
 }
 @media (max-width: 320px) {
   .teg {
@@ -125,6 +201,7 @@
     padding: 70px 0px;
   }
   .catalag-left img {
+    position: relative;
     width: 471px;
     height: 458px;
   }
@@ -180,5 +257,9 @@
   .teg-text {
     padding: 10px;
     margin: 8px;
+  }
+  .catalag-icon span {
+    position: absolute;
+    left: -190px;
   }
 }
